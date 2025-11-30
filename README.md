@@ -1,4 +1,4 @@
-
+# Landing Page (Astronomy related)
 This is a Landing page, part (of course) of The Odin Project curriculum. I tried having as much fun with it as possible, and it turned out okayish, even when the code itself is a disasterous mess. The credit for the pictures goes to:
 
 Yihan Wang: https://www.pexels.com/it-it/foto/nebulosa-testa-di-cavallo-29965022/
