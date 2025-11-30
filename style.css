@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, georgia, serif ;
+    background-color: #221824;
+    color: aliceblue;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.logo {
+    width: 80px;
+    clip-path: circle();
+}
+
+.header {
+    font-size: 18px;
+    background-color: #221824;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10%;
+        
+
+
+}
+
+.left {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    background-color: #3882f6;
+    color:white;
+    font-weight: 700;
+    padding: 16px 32px;
+     border-radius: 10px;
+     border: 0;
+   
+}
+
+
+.header_a{
+    font-size: 45px
+}
+
+.header_b{
+    font-size: 40px
+}
+
+
+.container {
+    text-align: justify;
+    font-size: 20px;
+    display: flex;
+    padding:20px 10% 120px 10%;
+    gap:20px 40px;
+    align-items: center;
+}
+
+
+.astro{
+    
+    width: 550px;
+    height: 350px;
+   
+}
+.container_b {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #1d2631;
+    align-items: center;
+    padding: 40px 50px 100px 50px ;
+}
+
+.container_t {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    
+
+   
+}
+
+.text {
+    text-align: justify;
+}
+
+.info{
+    text-align: justify;
+    width: 300px;
+    text-align: center;
+}
+
+.place{
+    width: 300px;
+    height:225px;
+    border: 5px solid rebeccapurple;
+    border-radius: 10%;
+    
+    
+}
+
+.container_c {
+    display: flex;
+    flex-direction:column ;
+    background-color: darkcyan;
+    color: white;
+    padding: 7%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: justify;
+    gap: 20px;
+
+}
+
+.quote{
+    font-style: italic;
+}
+.author{
+    font-weight: 800;
+    font-size: 24px;
+    align-self: flex-end;
+}
+.footer{
+    text-align: center;
+    padding: 30px;
+}
+
+.container_d{
+    background-color: white;
+    padding: 100px 180px;
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    background-color: #2f5fad;
+    color: white;
+    border-radius: 10px;
+    padding: 50px 100px;
+    justify-content: space-around;
+    text-align: justify;
+    align-items: center;
+}
+
+.texta{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.textb{
+    width: 420px;
+}
+.cardbutton{
+   border: 2px solid ;
+   border-color: aliceblue;
+   border-radius: 10px;
+}
